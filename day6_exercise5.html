@@ -1,0 +1,83 @@
+<!-- Day 6 														
+	 Excercise 5 													
+	 Submitted by Scott Pardo 									
+	 10/19/2012													
+	 															
+	 A store is having a sale.  They are giving the folloiwing discounts:
+	 	10% off purchases of $10 or less.
+	 	20% off purchases of greater than $10.
+	 Write a program to display the discount percentage and final price.
+	 	Use a variable for the item's cost and run multiple cases to test.	 	
+	 Use a form to capture the item's cost, output the discount and the discounted price
+	 and any other information you want.
+	 Form object names:
+	 		list_price - User entered cost of item.
+									
+-->
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Discount Calculator with Form</title>
+		<style type="text/css">
+			/* global text font style */
+			body {
+				font-family: Verdana, Arial, Helvetica, sans-serif;
+			}
+			/* global page style */
+			#container {
+				border-radius: 15px;
+				border: 1px solid black;
+				width: 350px;	
+				padding: 10px;	
+				margin: 0px auto 0px auto;
+			}
+
+			#data input {
+				width: 150px;
+				margin-bottom: .5em;
+			}
+			
+			#buttons input{
+				margin-bottom: .5em;
+			}
+
+			/* style for footer */	
+			footer {
+				border-spacing: 0px;
+				float: left;
+				width: 100%;
+			}
+		</style>
+	</head>
+	<body>
+		<header>
+
+		</header>
+		<section id="container">
+			<header>
+				<h1>Discount Calculator</h1>
+			</header>
+			
+			<form action="day6_exercise5.php" method="post">
+				
+				<!--  Data Entry -->
+				<div id="data">
+					<label>Please Enter a Purchase Price:</label>
+					<input type="text" name="list_price" /><br />						
+				</div>
+
+				<!-- Submit -->
+				<div id="buttons">
+					<label>&nbsp;</label>
+					<input type="submit" value="Calculate Final Cost" /><br />
+				</div>
+
+			</form>
+		
+			<footer>
+				<p>Scott Pardo: Day6 Exercise 5. Discount Calculator with Form Entry.</p>
+			</footer>
+		</section>
+	</body>
+</html>
