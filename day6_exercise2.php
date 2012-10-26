@@ -1,7 +1,7 @@
-<!-- Day 5 														
-	 Excercise 4 													
+<!-- Day 6 														
+	 Excercise 2 													
 	 Submitted by Scott Pardo 									
-	 10/7/2012													
+	 10/25/2012													
 	 															
 	 Produce a multiplication table using loops.
 	 Use a form to capture the number whose times table will be displayed.
@@ -48,6 +48,7 @@
 				border-radius: 5px 5px 5px 5px;			
 				padding: 0px;
 				margin: 0px;
+				background-color: lightGray;
 			}			
 			.back a {
 				padding: 10px;
@@ -133,12 +134,12 @@
 				
 				//give the user a link to go back and try again
 				print '<div class="back">';
-				print '<a  href="day6_exercise6.html">Return to Entry Form </a>';
+				print '<a  href="day6_exercise2.html">Return to Entry Form </a>';
 				print '</div>';
 				
 			?>
 			<footer>
-				<p>Scott Pardo: Day6 Exercise 6. Multiplication Table Creator with Form Entry.</p>
+				<p>Scott Pardo: Day6 Exercise 2. Multiplication Table Creator with Form Entry.</p>
 			</footer>
 		</section>
 	</body>

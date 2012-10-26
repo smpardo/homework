@@ -1,7 +1,7 @@
 <!-- Day 6 														
-	 Excercise 5 													
+	 Excercise 1 													
 	 Submitted by Scott Pardo 									
-	 10/19/2012													
+	 10/25/2012													
 	 															
 	 A store is having a sale.  They are giving the folloiwing discounts:
 	 	10% off purchases of $10 or less.
@@ -71,6 +71,7 @@
 				border-radius: 5px 5px 5px 5px;			
 				padding: 0px;
 				margin: 0px;
+				background-color: lightGray;				
 			}			
 			.back a {
 				padding: 10px;
@@ -152,13 +153,13 @@
 				
 				//give the user a link to go back and try again
 				print '<div class="back">';
-				print '<a  href="day6_exercise5.html">Return to Entry Form </a>';
+				print '<a  href="day6_exercise1.html">Return to Entry Form </a>';
 				print '</div>';
 				
 			?>
 		
 			<footer>
-				<p>Scott Pardo: Day6 Exercise 5. Discount Calculator with Form Entry.</p>
+				<p>Scott Pardo: Day6 Exercise 1. Discount Calculator with Form Entry.</p>
 			</footer>
 		</section>
 	</body>
