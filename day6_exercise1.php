@@ -40,6 +40,7 @@
 			/* global style for table*/
 			table {
 				border: 0px;
+				border: collapse;
 			}				
 			/* style for column header cells */
 			.colhead {
@@ -52,7 +53,8 @@
 				border-left: 1px solid white;
 				border-radius: 15px 15px 0px 0px;	
 				padding: 0px;	
-				margin: 0px;		
+				margin: 0px;	
+				border: collapse;	
 			}
 			/* style for table cells */
 			td {
@@ -62,6 +64,7 @@
 				text-align: right;
 				padding: 5px;
 				margin: 0px;
+				border: collapse;
 			}		
 			/* style for back "button"  */
 			.back {

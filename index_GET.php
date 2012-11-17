@@ -12,10 +12,10 @@
 <?php
 	//added to allow passing of data back to form from result page
 	// get the data from the form
-	if ($_POST['reuse_data'] == "True") {
-		$investment = $_POST['investment'];
-		$interest_rate = $_POST['interest_rate'];
-		$years = $_POST['years'];
+	if ($_GET['reuse_data'] == "True") {
+		$investment = $_GET['investment'];
+		$interest_rate = $_GET['interest_rate'];
+		$years = $_GET['years'];
 	}
 	else{
 	//if not we can initialzie the vars
@@ -41,7 +41,7 @@
     <?php if (!empty($error_message)) { ?>
         <p class="error"><?php echo $error_message; ?></p>
     <?php } // end if ?>
-    <form action="display_results.php" method="post">
+    <form action="display_results_GET.php" method="get">
 
         <div id="data">
             <label>Investment Amount:</label>
