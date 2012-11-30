@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <title>Future Value Calculator with Javascript</title>
+    <link rel="stylesheet" type="text/css" href="futurevalue.css"/>
+    <script src="js/futurevalue.js"></script>
+</head>
+
+<body>
+    <div id="content">
+    <h1>Future Value Calculator</h1>
+    <form>
+        <div id="data">
+            <label>Investment Amount:</label>
+            <input type="number" id="investment"/><br />
+
+            <label>Yearly Interest Rate:</label>
+            <input type="number" id="interest_rate"/><br />
+
+            <label>Number of Years:</label>
+            <input type="number" id="years"/><br />
+        </div>
+
+        <div id="buttons">
+            <label>&nbsp;</label>
+            <input type="button" value="Calculate" onclick="calculate();"/><br />
+        </div>
+
+ 		<!-- Output for JavaScript -->
+		<div id="output">
+			<output id="error_message" for="error_message"></output><br>
+			<label>Future Value:</label>
+			<output id="future_value" for="investment interest_rate years"></output><br>
+			<label>This calculation was done on </label>
+			<output id="calc_date" for="c_date"></output><br>				
+		</div>   
+    
+    </form>
+    
+    </div>
+</body>
+</html>
